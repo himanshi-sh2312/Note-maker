@@ -1,0 +1,13 @@
+[package]
+name = "NotesManager"
+version = "1.0.0"
+authors = []
+[addresses]
+NotesApp = "0xb63d417b49fea817f35580ef0b2c75203c77ea228cbfc4c505a417a52f866c1a"
+std = "0x1"
+[dev-addresses]
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+[dev-dependencies]
